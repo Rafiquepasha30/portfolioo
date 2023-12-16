@@ -1,0 +1,40 @@
+/* .nav-container{
+    background-image: url("../assets/Home/bg.jpg");
+    color: aliceblue;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+.nav-left{
+   font-weight: bold;
+   font-size: 4rem;
+
+}
+.nav-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400; 
+
+}
+.nav-menu{
+    flex: 10;
+}
+.nav-menu>ul{
+    display: flex;
+    gap: 3rem;
+    margin-left: 66%;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    
+}
+.nav-menu>ul:hover{
+    cursor: pointer;
+}
+a{
+    color: aliceblue;
+}
+button{
+    margin: 10px;
+} */
