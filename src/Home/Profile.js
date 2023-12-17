@@ -1,6 +1,7 @@
 import React from 'react'
 import './Profile.css'
 import Resume from './Rafiquepasha.pdf'
+import Typed from 'react-typed';
 import { BrowserRouter } from 'react-router-dom'
 import About from './About'
 
@@ -40,7 +41,10 @@ const Profile = () => {
                 </div>
                 <div className='profile-details-role'>
                     <span className='primary-text'>
-                       <h1>Full Stack Web Developer</h1>
+                        {" "}
+                       <h1>
+                        <Typed strings={["Web Developer🔴", "Front End Developer", "React Developer😎"]} typeSpeed={40} backSpeed={50} loop />
+                       </h1>
                         <span className='profile-role-tagline'>Building an web sites with Front end and back end</span>
 
                     </span>
