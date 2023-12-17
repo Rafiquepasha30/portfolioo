@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.css'
-import Typical from 'react-typical'
+import Typed from 'react-typed';
 import Resume from './Rafiquepasha.pdf'
 import { BrowserRouter } from 'react-router-dom'
 import About from './About'
@@ -44,17 +44,10 @@ const Profile = () => {
                         {" "}
                         <h1>
                             {" "}
-                            <Typical
-                            loop={Infinity}
-                            steps={[
-                                "Web Developer🔴",
-                                2000,
-                                 "Front End Developer",
-                                 2000,
-                                  "React Developer😎",
-                                  2000,
-                            ]}
-                            />
+                            
+                            <Typed strings={["Web Developer🔴", "Front End Developer", "React Developer😎"]} typeSpeed={40} backSpeed={50} loop />
+
+        
                         </h1>
                         <span className='profile-role-tagline'>Building an web sites with Front end and back end</span>
 
